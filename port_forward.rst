@@ -43,7 +43,6 @@ For each port forward the user can also configure also the following aspects:
   the network administrator can keep track of the traffic passing through the port forward, allowing for monitoring and analysis
   
 
-
 .. _hairpin-section:
 
 Hairpin NAT
