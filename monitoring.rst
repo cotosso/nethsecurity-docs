@@ -25,7 +25,7 @@ unauthorized access, and security breaches are identified and mitigated promptly
 Real time monitoring stores data in RAM and resets at every machine reboot.
 
 The ``Real time monitor`` page provides a comprehensive overview of the firewall's performance and status, with detailed insights into network traffic.
-It's divided into four main sections: ``Traffic``, ``Connectivity``, ``VPN``, and ``Security``.
+It's divided into four main sections: ``Traffic``, ``WAN uplinks``, ``VPN``, and ``Security``.
 
 Traffic
 -------
@@ -60,17 +60,17 @@ Today traffic is divided into four categories, each chart display only most acti
   this chart focuses on internal (local) hosts and their traffic.It helps identify the most active devices on the network,
   aiding in bandwidth management and detection of potential internal security risks, such as compromised devices generating unexpected traffic.
 
-The instant traffic section shows data updated every 60 minutes. It's divided into three categories:
+The Real-time traffic section shows data updated every 60 minutes. It's divided into three categories:
 
 - ``Local Hosts``: lists all detected local hosts and their current traffic status, ordered by traffic volume.
 - ``Applications``: lists all detected applications and their current traffic status, ordered by traffic volume.
 - ``Protocols``: lists all detected protocols and their current traffic status, ordered by traffic volume.
 
 
-Connectivity
+WAN uplinks
 ------------
 
-The connectivity section provides an overview of WAN connections, including status, bandwidth allocation, and traffic data.
+The WAN uplinks section provides an overview of WAN connections, including status, bandwidth allocation, and traffic data.
 
 This page shows the following information:
 
@@ -211,7 +211,7 @@ Ping latency monitoring
 ------------------------
 
 Configure the monitoring tool to evaluate round-trip time and packet loss by transmitting ping messages to network hosts.
-This tool is employed to monitor the quality of network connectivity. You have the option to include one or more hosts for monitoring,
+This tool is employed to monitor the quality of uplinks. You have the option to include one or more hosts for monitoring,
 and it's also feasible to add IP addresses within a VPN for assessing tunnel quality.
 
 To monitor a new host or IP address, click on the :guilabel:`Add host` button and enter the required information,
