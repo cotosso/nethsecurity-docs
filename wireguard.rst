@@ -62,6 +62,14 @@ The server and peers configuration can be edited by the context menu on the righ
 
   After modifying the WireGuard server or peers, remember that such changes needs to be applied to the peer by re-downloading the configuration file.
 
+.. warning::
+
+  There is a particolar condition that is currently not supported, it occurs when **all** the following are true:
+- a Wireguard peer is configured to **route all traffic** through the tunnel
+- the peer is a NethSecurity 8
+- the NethSecurity peer is using a MultiWAN
+In this combination the behavior is not guaranteed. If NethSecurity uses a single WAN, the setup is fully supported.
+
 Tunnel Configuration
 ====================
 
