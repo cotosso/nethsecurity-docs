@@ -50,7 +50,6 @@ Virtual Machines
 When installing NethSecurity on a virtual machine, the recommended method is to generate the virtual disk from the official image.
 In this mode, logs are not stored persistently by default.
 To enable persistent log storage, you must attach a second virtual disk to the virtual machine.
-As an alternative, you can extend the virtual disk and use the free disk space to create a new partition like on a physical hardware.
 
 Behavior in versions prior to 8.6
 ---------------------------------
